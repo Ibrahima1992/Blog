@@ -1,0 +1,65 @@
+body{
+   margin:auto;
+   background:url('../images/img_fond.jpg');
+  }
+
+/* tete de la page */
+header{
+    width:1090px;
+    height:90px;
+    clear:both;
+  }
+header h1{/*sa veut dire que les mises formes s'appliquent sur la balise <h1> pas <header>, <h1> se trouve dans <header> */
+    border:1px solid black;
+    height:80px;
+    color:blue;
+    background:orange;
+    color : white;
+    font-family:tahoma arial;
+    padding: 30px 20px 0px 50px;
+ }
+/*header p img{
+    width: 59px;
+    height: 30px;
+    padding: 0px 20px 0px 50px;
+ }*/
+/*Corps de la page*/
+#contenu{
+    /*margin:auto;*/
+    width:800px;
+    margin-left:100px;
+  }
+section{
+    width:1090px;
+    float:left;
+  }
+section article{
+    border:1px solid black;
+    height:550px;
+    background-color:white;;
+  }
+section article img{
+    float:left;
+    width:700px;
+    height:520px;
+    margin:5px;
+  }
+fieldset{
+   width:30%;
+ }
+/*PIED DE PAGE*/
+footer{
+    border:1px solid black;
+    width:1090px;
+    height:90px;
+    clear:both;
+    background:orange;
+    color:white;
+  }
+footer p{
+    text-align:center;
+  }
+textarea{
+   width : 50%;
+   height:300px;
+ }

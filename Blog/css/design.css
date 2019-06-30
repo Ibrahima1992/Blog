@@ -1,0 +1,25 @@
+body {
+  background-image: url("../images/img_fond.jpg");
+  background-repeat: repeat;
+}
+div {
+   border: outset white;
+   color: white;
+   text-align: center;
+   background-color: black;
+   margin-left:400px;
+   margin-top:200px;
+   width:35%;
+}
+h4.blink{text-decoration: blink;}
+a {
+  color:red;
+  text-decoration: none;
+
+}
+a:hover {
+  color:rgb(255,0,0);
+  text-decoration: underline;
+}
+
+
